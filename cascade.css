@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/cartoon-free');
+body {
+  background-image: url(betterbackground.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.powerpuff {
+  justify-content: center;
+    align-items: center;
+    display:flex;
+    text-align: center;
+}
+.bubbleshover {
+  transition: transform .2s;
+}
+.bubbleshover:hover {
+  cursor: pointer;
+  transform:scale(1.5);
+}
+.blossomhover {
+  transition: transform .2s;
+}
+.blossomhover:hover {
+  cursor: pointer;
+  transform:scale(1.5);
+}
+.buttercuphover {
+  transition: transform .2s;
+}
+.buttercuphover:hover {
+  cursor: pointer;
+  transform:scale(1.5);
+}
+.boomerhover {
+  transition: transform .2s;
+}
+.boomerhover:hover {
+  cursor: pointer;
+  transform:scale(1.5);
+}
+.butchhover {
+  transition: transform .2s;
+}
+.butchhover:hover {
+  cursor: pointer;
+  transform:scale(1.5);
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown1-content {
+  padding: 15px;
+  font-family: cursive;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-width: 3px;
+  border-radius: 12px;
+  border-color: #fff154;
+  display: none;
+  position: absolute;
+  background-image: url('bubblesbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown1:hover .dropdown1-content {display:block;}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown2-content {
+  padding: 15px;
+  font-family: cursive;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-width: 3px;
+  border-radius: 12px;
+  border-color: #b55e00;
+  display: none;
+  position: absolute;
+  background-image: url('blossombackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown2:hover .dropdown2-content {display:block;}
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown3-content {
+  padding: 15px; 
+  font-family: cursive;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-width: 3px;
+  border-radius: 12px;
+  border-color: black;
+  display: none;
+  position: absolute;
+  background-image: url('buttercupbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown3:hover .dropdown3-content {display:block;}
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown4-content {
+  padding: 15px;
+  font-family: cursive;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-width: 3px;
+  border-radius: 12px;
+  border-color: green;
+  color: white;
+  display: none;
+  position: absolute;
+  background-image: url('boomerbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown4:hover .dropdown4-content {display:block;}
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown5-content {
+  padding: 15px;
+  font-family: cursive;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-width: 3px;
+  border-radius: 12px;
+  border-color: green;
+  color: white;
+  display: none;
+  position: absolute;
+  background-image: url('butchbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown5:hover .dropdown5-content {display:block;}
